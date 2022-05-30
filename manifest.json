@@ -32,5 +32,6 @@
   ],
   "icons": {
     "128": "res/external/128.png"
-  }
+  },
+  "options_page": "popup.html"
 }

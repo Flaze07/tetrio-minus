@@ -14,6 +14,6 @@ window.addEventListener("DOMContentLoaded", () =>
 
     !config.skin_connected ? void 0 : injectScript(chrome.extension.getURL("/source/connected.js"), "body")
     !config.custom_map     ? void 0 : injectScript(chrome.extension.getURL("/source/map.js"),       "body")
-  })
+  });
 })
 
